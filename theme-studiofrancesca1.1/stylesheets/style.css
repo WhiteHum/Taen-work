@@ -603,11 +603,6 @@ small.error {
 
 /* Custom Forms ---------------------- */
 
-form.custom {
-    /* Custom input, disabled */
-    :
-}
-
 form.custom span.custom {
     display: inline-block;
     width: 16px;
@@ -4468,9 +4463,9 @@ a.readmore:hover {
     box-shadow: 0 0 1px #000;
 }
 
-.teamwrap a.info: hover {
+.teamwrap a.info:hover {
     -webkit-box-shadow: 0 0 5px #000;
-    -moz-box-shadow: 0 0 5px #000;
+    -moz-box-shado: 0 0 5px #000;
     box-shadow: 0 0 5px #000;
 }
 
@@ -4781,7 +4776,10 @@ a.tags,
     padding: 22px 50px 23px 50px !important;
 }
 
-******************************************************************************************************************* * Subheader Effects *******************************************************************************************************************/ @font-face {
+
+/******************************************************************************************************************* * Subheader Effects *******************************************************************************************************************/
+
+@font-face {
     font-family: 'WebSymbolsRegular';
     src: url('websymbols/websymbols-regular-webfont.eot');
     src: url('websymbols/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'), url('websymbols/websymbols-regular-webfont.woff') format('woff'), url('websymbols/websymbols-regular-webfont.ttf') format('truetype'), url('websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
@@ -4864,7 +4862,7 @@ a.tags,
     text-align: center;
     font-size: 14px;
     color: #666;
-    line-height: 25px;
+    line-height: px;
     opacity: 0.8;
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
