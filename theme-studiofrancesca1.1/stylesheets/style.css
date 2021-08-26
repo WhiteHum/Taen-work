@@ -1359,17 +1359,23 @@ that IE7/8 do not support :nth-child.
 }
 
 .button.success {
-    background-color: #5da423
+    background-color: #ec8600;
+    margin: 0px 0px 20px 0px;
+    font-size: xx-large;
+    border-radius: .5em;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
 }
 
 .button.success:hover {
-    background-color: #457a1a
+    background-color: #000000
 }
 
 .button.success:focus {
-    -webkit-box-shadow: 0 0 5px #5da423, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    -moz-box-shadow: 0 0 5px #5da423, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    box-shadow: 0 0 5px #5da423, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 0 5px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 0 5px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 0 5px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
 
 .button.alert {
