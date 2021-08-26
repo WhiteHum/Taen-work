@@ -4065,6 +4065,20 @@ a.readmore {
     transition: background-color 300ms linear;
 }
 
+.readmore1,
+a.readmore1 {
+    cursor: pointer;
+    border: 0px;
+    color: #fff;
+    padding: 6px 10px;
+    display: inline;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
 .readmore:hover,
 a.readmore:hover {
     background: #333;
