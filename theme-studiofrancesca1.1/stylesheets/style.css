@@ -1343,6 +1343,28 @@ that IE7/8 do not support :nth-child.
         box-shadow: 0 0 5px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     }
     
+    .button.save1 {
+        background-color: #006666;
+        margin: 50px 21px 50px 25px;
+        font-size: large;
+        border-radius: .5em;
+        padding: 14%;
+        float: left;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button.back1 {
+        background-color: #ec8600;
+        margin: 150px 21px 150px 25px;
+        font-size: xx-large;
+        border-radius: .5em;
+        padding: 14%;
+        float: left;
+        display: flex;
+        justify-content: center;
+    }
+    
     .button.career1 {
         background-color: #006666;
         margin: 150px 21px 150px 25px;
@@ -3206,32 +3228,33 @@ that IE7/8 do not support :nth-child.
         border: none;
     }
     
-    table.career0 {
+    td.career0 {
         text-align: left;
         font-weight: bold;
+        font-size: larger;
     }
     
-    table.career1 {
+    td.career1 {
         background-color: #CCCCCC;
         font-weight: bold;
         text-align: center;
         width: 15%;
     }
     
-    table.career2 {
-        background-color: #78DFFF;
+    td.career2 {
+        background-color: #55a2a6;
         font-weight: bold;
         text-align: center;
-        width: 13%
+        width: 13%;
+        font-size: larger;
     }
     
-    table.career3 {
-        background-color: #78DFFF;
+    td.career3 {
+        background-color: #55a2a6;
         font-weight: bold;
         text-align: center;
+        font-size: larger;
     }
-    
-    table.career4 {}
     /* Microformats ---------------------- */
     
     ul.vcard {
