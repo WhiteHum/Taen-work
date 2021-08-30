@@ -3205,6 +3205,33 @@ that IE7/8 do not support :nth-child.
         vertical-align: top;
         border: none;
     }
+    
+    table.career0 {
+        text-align: left;
+        font-weight: bold;
+    }
+    
+    table.career1 {
+        background-color: #CCCCCC;
+        font-weight: bold;
+        text-align: center;
+        width: 15%;
+    }
+    
+    table.career2 {
+        background-color: #78DFFF;
+        font-weight: bold;
+        text-align: center;
+        width: 13%
+    }
+    
+    table.career3 {
+        background-color: #78DFFF;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    table.career4 {}
     /* Microformats ---------------------- */
     
     ul.vcard {
