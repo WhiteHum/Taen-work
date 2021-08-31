@@ -107,7 +107,7 @@
         <div class="row">
             <div class="eight columns">
                 <p class="bread leftalign">
-                    <a href="farmer1.html">일하기</a>
+                    <a href="farmer1.html">이력서 작성</a>
                 </p>
             </div>
             <div class="four columns">
@@ -129,7 +129,7 @@
     <title></title>
     <style type="text/css">
         table {
-            width: 80%;
+            width: 70%;
             margin: auto;
         }
     </style>
@@ -145,7 +145,11 @@
         </table>
         <table border="1">
             <tr>
-                <td rowspan="2" class="career1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwIq3eqwx-6i-Q6dfy-KNXQZD7PRsY9qU2eqOwsFqR0VFFk3Wn&usqp=CAU" width="150" height="170"></td>
+                <td rowspan="2" class="career1">
+                    <label class="waves-effect waves-teal btn-flat" for="uploadInputBox">사진첨부</label>
+                    <input id="uploadInputBox" style="display: none" type="file" name="filedata" multiple />
+                </td>
+
                 <td class="career2">한글이름</td>
                 <td></td>
                 <td class="career2">외국인등록번호</td>
@@ -166,7 +170,7 @@
 
         <table border="0">
             <tr>
-                <td class="career0">3. 자격사항</td>
+                <td class="career0">2. 자격사항</td>
             </tr>
         </table>
         <table border="1" width=1200 height=300>
@@ -199,6 +203,17 @@
                 </tr>
             </tbody>
         </table>
+        <div class="row-migrant1">
+            <ul>
+                <li>
+                    <a href="career_write.html" class="save1 button">저장</a>
+                </li>
+                <li>
+                    <a href="#" class="back1 button">목록</a>
+                </li>
+            </ul>
+        </div>
+
     </body>
 
 </html>
