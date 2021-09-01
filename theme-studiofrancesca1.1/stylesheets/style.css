@@ -1249,7 +1249,6 @@ that IE7/8 do not support :nth-child.
         nowhitespace: afterproperty;
         width: auto;
         nowhitespace: afterproperty;
-        background: #444;
         color: white;
         cursor: pointer;
         display: inline-block;
@@ -1259,7 +1258,7 @@ that IE7/8 do not support :nth-child.
         line-height: 1;
         margin: 0;
         outline: none;
-        padding: 8px 17px 9px;
+        /* padding: 8px 17px 9px; */
         position: relative;
         text-align: center;
         text-decoration: none;
@@ -1345,7 +1344,7 @@ that IE7/8 do not support :nth-child.
     }
     
     .button.save1 {
-        background-color: #006666;
+        background-color: #ec8600;
         /* margin: 150px 21px 150px 25px; */
         font-size: xx-large;
         border-radius: .5em;
@@ -1360,7 +1359,7 @@ that IE7/8 do not support :nth-child.
     }
     
     .button.back1 {
-        background-color: #ec8600;
+        background-color: #55a2a6;
         margin: 150px 21px 150px 25px;
         font-size: xx-large;
         border-radius: .5em;
@@ -1375,22 +1374,16 @@ that IE7/8 do not support :nth-child.
     }
     
     .button.career1 {
-        background-color: #006666;
         margin: 150px 21px 150px 25px;
-        font-size: xx-large;
-        border-radius: .5em;
-        padding: 14%;
+        border-radius: 1.2em;
         float: left;
         display: flex;
         justify-content: center;
     }
     
     .button.career2 {
-        background-color: #ec8600;
         margin: 150px 21px 150px 25px;
-        font-size: xx-large;
-        border-radius: .5em;
-        padding: 14%;
+        border-radius: 1.2em;
         float: left;
         display: flex;
         justify-content: center;
@@ -2505,6 +2498,13 @@ that IE7/8 do not support :nth-child.
         position: relative;
     }
     
+    .migrant1 {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
     div.alert-box.default {
         background-color: #EDC60F;
         color: #fff;
@@ -3233,7 +3233,6 @@ that IE7/8 do not support :nth-child.
     table tbody tr td {
         color: #333;
         padding: 9px 10px;
-        vertical-align: top;
         border: none;
     }
     
@@ -3256,8 +3255,10 @@ that IE7/8 do not support :nth-child.
         background-color: #55a2a6;
         font-weight: bold;
         text-align: center;
-        width: 13%;
+        width: 18%;
         font-size: larger;
+        display: table-cell;
+        vertical-align: middle;
     }
     
     td.career3 {
@@ -3265,6 +3266,8 @@ that IE7/8 do not support :nth-child.
         font-weight: bold;
         text-align: center;
         font-size: larger;
+        display: table-cell;
+        vertical-align: middle
     }
     /* Microformats ---------------------- */
     
