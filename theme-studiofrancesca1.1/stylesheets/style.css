@@ -1374,7 +1374,7 @@ that IE7/8 do not support :nth-child.
     }
     
     .button.career1 {
-        margin: 150px 21px 150px 25px;
+        margin: 10px 21px 150px 25px;
         border-radius: 1.2em;
         float: left;
         display: flex;
@@ -1382,7 +1382,7 @@ that IE7/8 do not support :nth-child.
     }
     
     .button.career2 {
-        margin: 150px 21px 150px 25px;
+        margin: 10px 21px 150px 25px;
         border-radius: 1.2em;
         float: left;
         display: flex;
