@@ -11,9 +11,10 @@
     <meta charset="utf-8" />
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
-    <title>Studio Francesca - Premium Theme by WowThemes.net</title>
+    <title>Modneyro</title>
     <!-- CSS Files-->
     <link rel="stylesheet" href="stylesheets/style.css">
+
     <link rel="stylesheet" href="stylesheets/skins/blue.css">
     <!-- skin color -->
     <link rel="stylesheet" href="stylesheets/responsive.css">
@@ -23,9 +24,8 @@
   <![endif]-->
 </head>
 
-<body>
-    <!-- HIDDEN PANEL 
-================================================== -->
+<body style="border: 5px;">
+    <!-- HIDDEN PANEL ================================================== -->
     <div id="panel">
         <div class="row">
             <div class="twelve columns">
@@ -39,8 +39,7 @@
     <p class="slide">
         <a href="#" class="btn-slide"></a>
     </p>
-    <!-- HEADER
-================================================== -->
+    <!-- HEADER ================================================== -->
     <div class="row">
         <div class="headerlogo four columns">
             <div class="logo">
@@ -104,116 +103,53 @@
             </nav>
         </div>
     </div>
-
     <!-- SUBHEADER
 ================================================== -->
     <div id="subheader">
         <div class="row">
-            <div class="twelve columns">
-                <p>
-                    PORTOFOLIO Two Columns
+            <div class="eight columns">
+                <p class="left">
+                    <a href="#"> <br></a>
                 </p>
             </div>
         </div>
     </div>
     <div class="hr">
     </div>
-    <!-- CONTENT 
-================================================== -->
-    <div class="row">
-        <div class="twelve columns">
-            <!-- CATEGORIES-->
-            <section id="options" class="clearfix">
-                <ul id="filters" class="option-set clearfix" data-option-key="filter">
-                    <li><a href="#filter" data-option-value="*" class="portofoliobutton selected">Show all</a></li>
-                    <li><a href="#filter" data-option-value=".nature" class="portofoliobutton">Nature</a></li>
-                    <li><a href="#filter" data-option-value=".trains" class="portofoliobutton">Trains</a></li>
-                    <li><a href="#filter" data-option-value=".castles" class="portofoliobutton">Castles</a></li>
-                </ul>
-            </section>
-        </div>
-    </div>
-    <div id="portofolio" class="row">
-        <!-- Project 1-->
-        <div class="six columns category trains">
-            <h5>OLD TIMES</h5>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <div class="portofoliothumb">
-                <div class="portofoliothumboverlay">
-                    <div class="viewgallery">
-                        <!--image here -->
-                        <a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo/studiofrancesca/images/temp/folio1.jpg"><img src="http://www.wowthemes.net/demo/studiofrancesca/images/playgal.png" class="left galleryicon" alt=""> Gallery</a>
-                    </div>
-                    <div class="inner">
-                        <a class="projectdetail" href="portofoliodetail.html">+ Project Details</a>
-                    </div>
-                </div>
-                <!-- image here -->
-                <img src="http://www.wowthemes.net/demo/studiofrancesca/images/temp/folio1.jpg" alt="">
+
+    <!-- CONTENT ================================================== -->
+
+    <div class="migrant1" class="migrant1">
+
+        <form action="index.html" method="post" class="loginForm">
+            <h2>로그인</h2>
+
+            <div class="idForm">
+                <input type="text" class="id" placeholder="아이디">
             </div>
-        </div>
-        <!-- Project 2-->
-        <div class="six columns category castles nature">
-            <h5>MASTERPIECE</h5>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <div class="portofoliothumb">
-                <div class="portofoliothumboverlay">
-                    <div class="viewgallery">
-                        <a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo/studiofrancesca/images/temp/folio2.jpg"><img src="http://www.wowthemes.net/demo/studiofrancesca/images/playgal.png" class="left galleryicon" alt=""> Gallery</a>
-                    </div>
-                    <div class="inner">
-                        <a class="projectdetail" href="portofoliodetail.html">+ Project Details</a>
-                    </div>
-                </div>
-                <img src="http://www.wowthemes.net/demo/studiofrancesca/images/temp/folio2.jpg" alt="" />
+            <div class="passForm">
+                <input type="password" class="pw" placeholder="비밀번호">
             </div>
-        </div>
-        <!-- Project 3-->
-        <div class="six columns category nature">
-            <h5>SHADOW LIGHT</h5>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <div class="portofoliothumb">
-                <div class="portofoliothumboverlay">
-                    <div class="viewgallery">
-                        <a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo/studiofrancesca/images/temp/folio3.jpg"><img src="http://www.wowthemes.net/demo/studiofrancesca/images/playgal.png" class="left galleryicon" alt=""> Gallery</a>
-                    </div>
-                    <div class="inner">
-                        <a class="projectdetail" href="portofoliodetail.html">+ Project Details</a>
-                    </div>
-                </div>
-                <img src="http://www.wowthemes.net/demo/studiofrancesca/images/temp/folio3.jpg" alt="" />
+            <br>
+            <button type="button" class="btn login" onclick="button()">로그인</button>
+            <script>
+                let button = () => {
+                    alert('login Button !')
+                }
+            </script>
+            <br><br>
+            <div class="bottomText">
+                처음이십니까? <br><br><a href="#">회원가입</a>
             </div>
-        </div>
-        <!-- Project 4-->
-        <div class="six columns category nature castles">
-            <h5>WHITE CASTLE</h5>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <div class="portofoliothumb">
-                <div class="portofoliothumboverlay">
-                    <div class="viewgallery">
-                        <a data-gal="prettyPhoto[gallery]" href="http://www.wowthemes.net/demo/studiofrancesca/images/temp/folio4.jpg"><img src="http://www.wowthemes.net/demo/studiofrancesca/images/playgal.png" class="left galleryicon" alt=""> Gallery</a>
-                    </div>
-                    <div class="inner">
-                        <a class="projectdetail" href="portofoliodetail.html">+ Project Details</a>
-                    </div>
-                </div>
-                <img src="http://www.wowthemes.net/demo/studiofrancesca/images/temp/folio4.jpg" alt="" />
-            </div>
-        </div>
-    </div>
-    <div class="hr">
+        </form>
+
     </div>
 
-    <!-- FOOOTER 
-================================================== -->
+
+    <!-- FOOOTER ================================================== -->
+    <div class="clear">
+    </div>
+
     <div id="footer">
         <footer class="row">
             <p class="back-top floatright">
@@ -247,10 +183,10 @@
     <div class="copyright">
         <div class="row">
             <div class="six columns">
-                &copy;<span class="small"> Copyright 2015 Your Agency Name</span>
+                &copy;<span class="small"> Copyright Your Agency Name</span>
             </div>
             <div class="six columns">
-                <span class="small floatright"> Template by <a href="www.wowthemes.net">WowThemes.net</a></span>
+                <span class="small floatright">Design by <a target="_blank" href="http://www.wowthemes.net/premium-themes-templates/">WowThemesNet</a> </span>
             </div>
         </div>
     </div>
@@ -258,6 +194,9 @@
 ================================================== -->
     <!-- Javascript files placed here for faster loading -->
     <script src="javascripts/foundation.min.js"></script>
+    <script src="javascripts/jquery.easing.1.3.js"></script>
+    <script src="javascripts/elasticslideshow.js"></script>
+    <script src="javascripts/jquery.carouFredSel-6.0.5-packed.js"></script>
     <script src="javascripts/jquery.cycle.js"></script>
     <script src="javascripts/app.js"></script>
     <script src="javascripts/modernizr.foundation.js"></script>
@@ -266,11 +205,8 @@
     <script src="javascripts/hoverIntent.js"></script>
     <script src="javascripts/superfish.js"></script>
     <script src="javascripts/responsivemenu.js"></script>
-    <script src="javascripts/jquery.tweet.js"></script>
-
-    <script src="javascripts/jquery.isotope.min.js"></script>
-    <script src="javascripts/jquery.prettyPhoto.js"></script>
-    <script src="javascripts/custom.js"></script>
 </body>
+
+</html>
 
 </html>
