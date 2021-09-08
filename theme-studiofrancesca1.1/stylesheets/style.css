@@ -24,7 +24,7 @@
     .loginForm {
         /* position: absolute; */
         width: 400px;
-        height: 500px;
+        height: 535px;
         padding: 30px, 20px;
         background-color: #FFFFFF;
         text-align: center;
@@ -80,7 +80,45 @@
         margin-bottom: 40px;
         width: 80%;
         height: 40px;
-        background: linear-gradient(125deg, #81ecec, #006666, #81ecec);
+        background: linear-gradient(125deg, #1e9b9b, #1e9b9b, #006666);
+        background-position: left;
+        background-size: 200%;
+        color: white;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        transition: 0.4s;
+        display: inline;
+        font-size: 15px;
+    }
+    
+    .btn.lnsert1 {
+        position: relative;
+        /* left: 40%; */
+        /* transform: translateX(-50%); */
+        margin-bottom: 40px;
+        width: 40%;
+        height: 40px;
+        background: linear-gradient(125deg, #ff9100, #ff9100, #81ecec);
+        background-position: left;
+        background-size: 200%;
+        color: white;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        transition: 0.4s;
+        display: inline;
+        font-size: 15px;
+    }
+    
+    .btn.lnsert2 {
+        position: relative;
+        /* left: 40%;
+        transform: translateX(-50%); */
+        margin-bottom: 40px;
+        width: 40%;
+        height: 40px;
+        background: linear-gradient(125deg, #ff6a8f, #ff6a8f, #81ecec);
         background-position: left;
         background-size: 200%;
         color: white;
@@ -2581,6 +2619,14 @@ that IE7/8 do not support :nth-child.
     
     .migrant1 {
         width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .select_education {
+        width: 100%;
+        margin-bottom: -100px;
         position: relative;
         display: flex;
         justify-content: center;
