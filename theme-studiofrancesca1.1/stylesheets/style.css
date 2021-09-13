@@ -85,6 +85,7 @@
         background-size: 200%;
         color: white;
         font-weight: bold;
+        border-radius: 0.8em;
         border: none;
         cursor: pointer;
         transition: 0.4s;
@@ -104,6 +105,7 @@
         background-size: 200%;
         color: white;
         font-weight: bold;
+        border-radius: 0.8em;
         border: none;
         cursor: pointer;
         transition: 0.4s;
@@ -123,6 +125,7 @@
         background-size: 200%;
         color: white;
         font-weight: bold;
+        border-radius: 0.8em;
         border: none;
         cursor: pointer;
         transition: 0.4s;
