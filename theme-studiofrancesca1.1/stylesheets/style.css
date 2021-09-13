@@ -1445,6 +1445,76 @@ that IE7/8 do not support :nth-child.
         box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     }
     
+    .button.news1 {
+        background-color: #75c9d8;
+        margin: 0px 0px 20px 0px;
+        font-size: x-large;
+        border-radius: .5em;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button.news1:hover {
+        background-color: #000000
+    }
+    
+    .button.news2 {
+        background-color: #45a1b1;
+        margin: 0px 0px 20px 0px;
+        font-size: x-large;
+        border-radius: .5em;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button.news2:hover {
+        background-color: #000000
+    }
+    
+    .button.news3 {
+        background-color: #34818f;
+        margin: 0px 0px 20px 0px;
+        font-size: x-large;
+        border-radius: .5em;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button.news3:hover {
+        background-color: #000000
+    }
+    
+    .button.news4 {
+        background-color: #205d68;
+        margin: 0px 0px 20px 0px;
+        font-size: x-large;
+        border-radius: .5em;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button.news4:hover {
+        background-color: #000000
+    }
+    
+    .button.news5 {
+        background-color: #043038;
+        margin: 0px 0px 20px 0px;
+        font-size: x-large;
+        border-radius: .5em;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button.news5:hover {
+        background-color: #000000
+    }
+    
     .button.success {
         background-color: #ec8600;
         margin: 0px 0px 20px 0px;
@@ -1503,12 +1573,20 @@ that IE7/8 do not support :nth-child.
         justify-content: center;
     }
     
+    .button.career1:hover {
+        background-color: #000000
+    }
+    
     .button.career2 {
         margin: 10px 21px 150px 25px;
         border-radius: 1.2em;
         float: left;
         display: flex;
         justify-content: center;
+    }
+    
+    .button.career2:hover {
+        background-color: #000000
     }
     
     .button.login {
