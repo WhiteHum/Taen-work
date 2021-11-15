@@ -1,37 +1,38 @@
 <template>
-        <!-- SLIDER ================================================== -->
+  <div class="home">
+      <!-- SLIDER ================================================== -->
     <div id="ei-slider" class="ei-slider">
         <ul class="ei-slider-large">
             <li>
-                <img src="images/women.jpg" alt="image01" class="responsiveslide">
+                <img src="@/assets/imagesmodeny/women.jpg" alt="image01" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Smile</h3>
                 </div>
             </li>
             <li>
-                <img src="images/Rural_education.jpg" alt="image02" class="responsiveslide">
+                <img src="@/assets/imagesmodeny/Rural_education.jpg" alt="image02" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Hope</h3>
                 </div>
             </li>
             <li>
-                <img src="images/family1.jpg" alt="image09" class="responsiveslide">
+                <img src="@/assets/imagesmodeny/family1.jpg" alt="image09" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Love</h3>
                 </div>
             </li>
             <li>
-                <img src="images/houseworker.jpg" alt="image03" class="responsiveslide">
+                <img src="@/assets/imagesmodeny/houseworker.jpg" alt="image03" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Dream</h3>
                 </div>
             </li>
             <li>
-                <img src="images/Planting_seedlings.jpg" alt="image04" class="responsiveslide">
+                <img src="@/assets/imagesmodeny/Planting_seedlings.jpg" alt="image04" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>care</h3>
@@ -39,14 +40,14 @@
             </li>
 
             <li>
-                <img src="images/Screening_Operations.jpg" alt="image05" class="responsiveslide">
+                <img src="@/assets/imagesmodeny/Screening_Operations.jpg" alt="image05" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>active</h3>
                 </div>
             </li>
             <li>
-                <img src="images/farmworker.jpg" alt="image06" class="responsiveslide">
+                <img src="@/assets/imagesmodeny/farmworker.jpg" alt="image06" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Learn</h3>
@@ -54,7 +55,7 @@
             </li>
 
             <li>
-                <img src="images/trackter.jpg" alt="image08" class="responsiveslide">
+                <img src="@/assets/imagesmodeny/trackter.jpg" alt="image08" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Better</h3>
@@ -62,7 +63,7 @@
             </li>
 
             <li>
-                <img src="images/female_education3.jpg" alt="image10" class="responsiveslide">
+                <img src="@/assets/imagesmodeny/female_education3.jpg" alt="image10" class="responsiveslide">
                 <div class="ei-title">
                     <h2>Stand up </h2>
                     <h3>Live</h3>
@@ -80,7 +81,7 @@
             <li><a href="#">Slide 6</a><img src="https://via.placeholder.com/150x59/000000/?text=For Active" class="slideshowthumb" alt="thumb05" /></li>
             <li><a href="#">Slide 7</a><img src="https://via.placeholder.com/150x59/000000/?text=For Learn" class="slideshowthumb" alt="thumb06" /></li>
             <li><a href="#">Slide 8</a><img src="https://via.placeholder.com/150x59/000000/?text=For Better" class="slideshowthumb" alt="thumb07" /></li>
-            <li><a href="#">Slide 9</a><img src="https://via.placeholder.com/150x59/000000/?text=Stand up&Live" class="slideshowthumb" alt="thumb09" /></li>
+            <li><a href="#">Slide 9</a><img src="https://via.placeholder.com/150x59/000000/?text=Stand up Live" class="slideshowthumb" alt="thumb09" /></li>
         </ul>
     </div>
     <div class="minipause">
@@ -174,5 +175,15 @@
             </p>
         </div>
     </div>
-    <div class="hr"></div>
+    <div class="hr"></div> 
+  </div>
 </template>
+
+<script>
+// @ is an alias to /src
+export default {
+  name: 'Home',
+  components: {
+  }
+}
+</script>
