@@ -4225,7 +4225,7 @@ that IE7/8 do not support :nth-child.
     }
     
     .sectiontitle {
-        background: url(../images/dots.gif) repeat-x scroll 0 0 transparent;
+        background: url(@/images/dots.gif) repeat-x scroll 0 0 transparent;
         background-position: center;
         margin: 5px 0 25px;
         min-height: 20px;
@@ -4240,7 +4240,7 @@ that IE7/8 do not support :nth-child.
     }
     
     .centersectiontitle {
-        background: url(../images/dots.gif) repeat-x scroll 0 0 transparent;
+        background: url(@/images/dots.gif) repeat-x scroll 0 0 transparent;
         background-position: center;
         margin: 10px 0 25px;
         min-height: 20px;
@@ -4263,7 +4263,7 @@ that IE7/8 do not support :nth-child.
     .wrappic:hover {
         border: 1px solid #CCCCCC;
         padding: 2px;
-        background: url(../images/wraphover.png) repeat !important;
+        background: url(@/images/wraphover.png) repeat !important;
     }
     
     .readmore,
@@ -4415,7 +4415,7 @@ that IE7/8 do not support :nth-child.
     .grayscale {}
     
     .dots {
-        background: url(../images/dots.gif) repeat-x;
+        background: url(@/images/dots.gif) repeat-x;
         height: 10px;
     }
     
@@ -4484,7 +4484,7 @@ that IE7/8 do not support :nth-child.
     }
     
     .tweetarea {
-        background: #f8f8f8 url(../images/div.png) repeat-x;
+        background: #f8f8f8 url(@/images/div.png) repeat-x;
         margin-top: 20px;
     }
     
@@ -4502,43 +4502,43 @@ that IE7/8 do not support :nth-child.
     }
     
     .facebook {
-        background: url(../images/socialpack/facebook.png)
+        background: url(@/images/socialpack/facebook.png)
     }
     
     .facebook:hover {
-        background: url(../images/socialpack/facebooka.png)
+        background: url(@/images/socialpack/facebooka.png)
     }
     
     .twitter {
-        background: url(../images/socialpack/twitter.png)
+        background: url(@/images/socialpack/twitter.png)
     }
     
     .twitter:hover {
-        background: url(../images/socialpack/twittera.png)
+        background: url(@/images/socialpack/twittera.png)
     }
     
     .dribbble {
-        background: url(../images/socialpack/dribbble.png)
+        background: url(@/images/socialpack/dribbble.png)
     }
     
     .dribbble:hover {
-        background: url(../images/socialpack/dribbblea.png)
+        background: url(@/images/socialpack/dribbblea.png)
     }
     
     .deviantart {
-        background: url(../images/socialpack/deviantart.png)
+        background: url(@/images/socialpack/deviantart.png)
     }
     
     .deviantart:hover {
-        background: url(../images/socialpack/deviantarta.png)
+        background: url(@/images/socialpack/deviantarta.png)
     }
     
     .flickr {
-        background: url(../images/socialpack/flickr.png)
+        background: url(@/images/socialpack/flickr.png)
     }
     
     .flickr:hover {
-        background: url(../images/socialpack/flickra.png)
+        background: url(@/images/socialpack/flickra.png)
     }
     
     .newsletter {
@@ -4571,7 +4571,7 @@ that IE7/8 do not support :nth-child.
         text-align: center;
         text-transform: uppercase;
         text-decoration: none;
-        background: #333 url(../images/up-arrow.png) no-repeat center center;
+        background: #333 url(@/images/up-arrow.png) no-repeat center center;
         border-radius: 5px;
         /* transition */
         -webkit-transition: 1s;
@@ -4948,7 +4948,7 @@ that IE7/8 do not support :nth-child.
     
     .circledate {
         color: #fff;
-        background: url(../images/blackcircle.png) no-repeat;
+        background: url(@/images/blackcircle.png) no-repeat;
         width: 100px;
         height: 100px;
         padding: 2px;
@@ -5370,7 +5370,7 @@ that IE7/8 do not support :nth-child.
     
     a.prev,
     a.next {
-        background: url(../images/miscellaneous_sprite.png) no-repeat transparent;
+        background: url(@/images/miscellaneous_sprite.png) no-repeat transparent;
         width: 45px;
         height: 50px;
         display: block;
@@ -5421,7 +5421,7 @@ that IE7/8 do not support :nth-child.
     }
     
     .pagination a {
-        background: url(../images/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
+        background: url(@/images/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
         width: 15px;
         height: 15px;
         margin: 0 5px 0 0;
@@ -5515,15 +5515,15 @@ that IE7/8 do not support :nth-child.
     }
     
     div.pp_default .pp_top .pp_left {
-        background: url(../images/prettyPhoto/default/sprite.png) -78px -93px no-repeat
+        background: url(@/images/prettyPhoto/default/sprite.png) -78px -93px no-repeat
     }
     
     div.pp_default .pp_top .pp_middle {
-        background: url(../images/prettyPhoto/default/sprite_x.png) top left repeat-x
+        background: url(@/images/prettyPhoto/default/sprite_x.png) top left repeat-x
     }
     
     div.pp_default .pp_top .pp_right {
-        background: url(../images/prettyPhoto/default/sprite.png) -112px -93px no-repeat
+        background: url(@/images/prettyPhoto/default/sprite.png) -112px -93px no-repeat
     }
     
     div.pp_default .pp_content .ppt {
@@ -5531,58 +5531,58 @@ that IE7/8 do not support :nth-child.
     }
     
     div.pp_default .pp_content_container .pp_left {
-        background: url(../images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;
+        background: url(@/images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;
         padding-left: 13px
     }
     
     div.pp_default .pp_content_container .pp_right {
-        background: url(../images/prettyPhoto/default/sprite_y.png) top right repeat-y;
+        background: url(@/images/prettyPhoto/default/sprite_y.png) top right repeat-y;
         padding-right: 13px
     }
     
     div.pp_default .pp_next:hover {
-        background: url(../images/prettyPhoto/default/sprite_next.png) center right no-repeat;
+        background: url(@/images/prettyPhoto/default/sprite_next.png) center right no-repeat;
         cursor: pointer
     }
     
     div.pp_default .pp_previous:hover {
-        background: url(../images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
+        background: url(@/images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
         cursor: pointer
     }
     
     div.pp_default .pp_expand {
-        background: url(../images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;
+        background: url(@/images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;
         cursor: pointer;
         width: 28px;
         height: 28px
     }
     
     div.pp_default .pp_expand:hover {
-        background: url(../images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
+        background: url(@/images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
         cursor: pointer
     }
     
     div.pp_default .pp_contract {
-        background: url(../images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;
+        background: url(@/images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;
         cursor: pointer;
         width: 28px;
         height: 28px
     }
     
     div.pp_default .pp_contract:hover {
-        background: url(../images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;
+        background: url(@/images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;
         cursor: pointer
     }
     
     div.pp_default .pp_close {
         width: 30px;
         height: 30px;
-        background: url(../images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;
+        background: url(@/images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;
         cursor: pointer
     }
     
     div.pp_default .pp_gallery ul li a {
-        background: url(../images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;
+        background: url(@/images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;
         border: 1px solid #aaa
     }
     
@@ -5598,7 +5598,7 @@ that IE7/8 do not support :nth-child.
     
     div.pp_default .pp_nav .pp_play,
     div.pp_default .pp_nav .pp_pause {
-        background: url(../images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
+        background: url(@/images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
         height: 30px;
         width: 30px
     }
@@ -5609,7 +5609,7 @@ that IE7/8 do not support :nth-child.
     
     div.pp_default a.pp_arrow_previous,
     div.pp_default a.pp_arrow_next {
-        background: url(../images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;
+        background: url(@/images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;
         height: 20px;
         width: 20px;
         margin: 4px 0 0
@@ -5660,144 +5660,144 @@ that IE7/8 do not support :nth-child.
     }
     
     div.pp_default .pp_bottom .pp_left {
-        background: url(../images/prettyPhoto/default/sprite.png) -78px -127px no-repeat
+        background: url(@/images/prettyPhoto/default/sprite.png) -78px -127px no-repeat
     }
     
     div.pp_default .pp_bottom .pp_middle {
-        background: url(../images/prettyPhoto/default/sprite_x.png) bottom left repeat-x
+        background: url(@/images/prettyPhoto/default/sprite_x.png) bottom left repeat-x
     }
     
     div.pp_default .pp_bottom .pp_right {
-        background: url(../images/prettyPhoto/default/sprite.png) -112px -127px no-repeat
+        background: url(@/images/prettyPhoto/default/sprite.png) -112px -127px no-repeat
     }
     
     div.pp_default .pp_loaderIcon {
-        background: url(../images/prettyPhoto/default/loader.gif) center center no-repeat
+        background: url(@/images/prettyPhoto/default/loader.gif) center center no-repeat
     }
     
     div.light_rounded .pp_top .pp_left {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat
     }
     
     div.light_rounded .pp_top .pp_right {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) -110px -53px no-repeat
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) -110px -53px no-repeat
     }
     
     div.light_rounded .pp_next:hover {
-        background: url(../images/prettyPhoto/light_rounded/btnNext.png) center right no-repeat;
+        background: url(@/images/prettyPhoto/light_rounded/btnNext.png) center right no-repeat;
         cursor: pointer
     }
     
     div.light_rounded .pp_previous:hover {
-        background: url(../images/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat;
+        background: url(@/images/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat;
         cursor: pointer
     }
     
     div.light_rounded .pp_expand {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat;
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat;
         cursor: pointer
     }
     
     div.light_rounded .pp_expand:hover {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) -31px -47px no-repeat;
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) -31px -47px no-repeat;
         cursor: pointer
     }
     
     div.light_rounded .pp_contract {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) 0 -26px no-repeat;
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) 0 -26px no-repeat;
         cursor: pointer
     }
     
     div.light_rounded .pp_contract:hover {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) 0 -47px no-repeat;
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) 0 -47px no-repeat;
         cursor: pointer
     }
     
     div.light_rounded .pp_close {
         width: 75px;
         height: 22px;
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) -1px -1px no-repeat;
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) -1px -1px no-repeat;
         cursor: pointer
     }
     
     div.light_rounded .pp_nav .pp_play {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) -1px -100px no-repeat;
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) -1px -100px no-repeat;
         height: 15px;
         width: 14px
     }
     
     div.light_rounded .pp_nav .pp_pause {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) -24px -100px no-repeat;
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) -24px -100px no-repeat;
         height: 15px;
         width: 14px
     }
     
     div.light_rounded .pp_arrow_previous {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) 0 -71px no-repeat
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) 0 -71px no-repeat
     }
     
     div.light_rounded .pp_arrow_next {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) -22px -71px no-repeat
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) -22px -71px no-repeat
     }
     
     div.light_rounded .pp_bottom .pp_left {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) -88px -80px no-repeat
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) -88px -80px no-repeat
     }
     
     div.light_rounded .pp_bottom .pp_right {
-        background: url(../images/prettyPhoto/light_rounded/sprite.png) -110px -80px no-repeat
+        background: url(@/images/prettyPhoto/light_rounded/sprite.png) -110px -80px no-repeat
     }
     
     div.dark_rounded .pp_top .pp_left {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) -88px -53px no-repeat
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) -88px -53px no-repeat
     }
     
     div.dark_rounded .pp_top .pp_right {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) -110px -53px no-repeat
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) -110px -53px no-repeat
     }
     
     div.dark_rounded .pp_content_container .pp_left {
-        background: url(../images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat-y
+        background: url(@/images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat-y
     }
     
     div.dark_rounded .pp_content_container .pp_right {
-        background: url(../images/prettyPhoto/dark_rounded/contentPattern.png) top right repeat-y
+        background: url(@/images/prettyPhoto/dark_rounded/contentPattern.png) top right repeat-y
     }
     
     div.dark_rounded .pp_next:hover {
-        background: url(../images/prettyPhoto/dark_rounded/btnNext.png) center right no-repeat;
+        background: url(@/images/prettyPhoto/dark_rounded/btnNext.png) center right no-repeat;
         cursor: pointer
     }
     
     div.dark_rounded .pp_previous:hover {
-        background: url(../images/prettyPhoto/dark_rounded/btnPrevious.png) center left no-repeat;
+        background: url(@/images/prettyPhoto/dark_rounded/btnPrevious.png) center left no-repeat;
         cursor: pointer
     }
     
     div.dark_rounded .pp_expand {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) -31px -26px no-repeat;
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) -31px -26px no-repeat;
         cursor: pointer
     }
     
     div.dark_rounded .pp_expand:hover {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) -31px -47px no-repeat;
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) -31px -47px no-repeat;
         cursor: pointer
     }
     
     div.dark_rounded .pp_contract {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) 0 -26px no-repeat;
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) 0 -26px no-repeat;
         cursor: pointer
     }
     
     div.dark_rounded .pp_contract:hover {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) 0 -47px no-repeat;
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) 0 -47px no-repeat;
         cursor: pointer
     }
     
     div.dark_rounded .pp_close {
         width: 75px;
         height: 22px;
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) -1px -1px no-repeat;
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) -1px -1px no-repeat;
         cursor: pointer
     }
     
@@ -5807,35 +5807,35 @@ that IE7/8 do not support :nth-child.
     }
     
     div.dark_rounded .pp_nav .pp_play {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) -1px -100px no-repeat;
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) -1px -100px no-repeat;
         height: 15px;
         width: 14px
     }
     
     div.dark_rounded .pp_nav .pp_pause {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) -24px -100px no-repeat;
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) -24px -100px no-repeat;
         height: 15px;
         width: 14px
     }
     
     div.dark_rounded .pp_arrow_previous {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) 0 -71px no-repeat
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) 0 -71px no-repeat
     }
     
     div.dark_rounded .pp_arrow_next {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) -22px -71px no-repeat
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) -22px -71px no-repeat
     }
     
     div.dark_rounded .pp_bottom .pp_left {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) -88px -80px no-repeat
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) -88px -80px no-repeat
     }
     
     div.dark_rounded .pp_bottom .pp_right {
-        background: url(../images/prettyPhoto/dark_rounded/sprite.png) -110px -80px no-repeat
+        background: url(@/images/prettyPhoto/dark_rounded/sprite.png) -110px -80px no-repeat
     }
     
     div.dark_rounded .pp_loaderIcon {
-        background: url(../images/prettyPhoto/dark_rounded/loader.gif) center center no-repeat
+        background: url(@/images/prettyPhoto/dark_rounded/loader.gif) center center no-repeat
     }
     
     div.dark_square .pp_left,
@@ -5851,33 +5851,33 @@ that IE7/8 do not support :nth-child.
     }
     
     div.dark_square .pp_loaderIcon {
-        background: url(../images/prettyPhoto/dark_square/loader.gif) center center no-repeat
+        background: url(@/images/prettyPhoto/dark_square/loader.gif) center center no-repeat
     }
     
     div.dark_square .pp_expand {
-        background: url(../images/prettyPhoto/dark_square/sprite.png) -31px -26px no-repeat;
+        background: url(@/images/prettyPhoto/dark_square/sprite.png) -31px -26px no-repeat;
         cursor: pointer
     }
     
     div.dark_square .pp_expand:hover {
-        background: url(../images/prettyPhoto/dark_square/sprite.png) -31px -47px no-repeat;
+        background: url(@/images/prettyPhoto/dark_square/sprite.png) -31px -47px no-repeat;
         cursor: pointer
     }
     
     div.dark_square .pp_contract {
-        background: url(../images/prettyPhoto/dark_square/sprite.png) 0 -26px no-repeat;
+        background: url(@/images/prettyPhoto/dark_square/sprite.png) 0 -26px no-repeat;
         cursor: pointer
     }
     
     div.dark_square .pp_contract:hover {
-        background: url(../images/prettyPhoto/dark_square/sprite.png) 0 -47px no-repeat;
+        background: url(@/images/prettyPhoto/dark_square/sprite.png) 0 -47px no-repeat;
         cursor: pointer
     }
     
     div.dark_square .pp_close {
         width: 75px;
         height: 22px;
-        background: url(../images/prettyPhoto/dark_square/sprite.png) -1px -1px no-repeat;
+        background: url(@/images/prettyPhoto/dark_square/sprite.png) -1px -1px no-repeat;
         cursor: pointer
     }
     
@@ -5886,136 +5886,136 @@ that IE7/8 do not support :nth-child.
     }
     
     div.dark_square .pp_nav .pp_play {
-        background: url(../images/prettyPhoto/dark_square/sprite.png) -1px -100px no-repeat;
+        background: url(@/images/prettyPhoto/dark_square/sprite.png) -1px -100px no-repeat;
         height: 15px;
         width: 14px
     }
     
     div.dark_square .pp_nav .pp_pause {
-        background: url(../images/prettyPhoto/dark_square/sprite.png) -24px -100px no-repeat;
+        background: url(@/images/prettyPhoto/dark_square/sprite.png) -24px -100px no-repeat;
         height: 15px;
         width: 14px
     }
     
     div.dark_square .pp_arrow_previous {
-        background: url(../images/prettyPhoto/dark_square/sprite.png) 0 -71px no-repeat
+        background: url(@/images/prettyPhoto/dark_square/sprite.png) 0 -71px no-repeat
     }
     
     div.dark_square .pp_arrow_next {
-        background: url(../images/prettyPhoto/dark_square/sprite.png) -22px -71px no-repeat
+        background: url(@/images/prettyPhoto/dark_square/sprite.png) -22px -71px no-repeat
     }
     
     div.dark_square .pp_next:hover {
-        background: url(../images/prettyPhoto/dark_square/btnNext.png) center right no-repeat;
+        background: url(@/images/prettyPhoto/dark_square/btnNext.png) center right no-repeat;
         cursor: pointer
     }
     
     div.dark_square .pp_previous:hover {
-        background: url(../images/prettyPhoto/dark_square/btnPrevious.png) center left no-repeat;
+        background: url(@/images/prettyPhoto/dark_square/btnPrevious.png) center left no-repeat;
         cursor: pointer
     }
     
     div.light_square .pp_expand {
-        background: url(../images/prettyPhoto/light_square/sprite.png) -31px -26px no-repeat;
+        background: url(@/images/prettyPhoto/light_square/sprite.png) -31px -26px no-repeat;
         cursor: pointer
     }
     
     div.light_square .pp_expand:hover {
-        background: url(../images/prettyPhoto/light_square/sprite.png) -31px -47px no-repeat;
+        background: url(@/images/prettyPhoto/light_square/sprite.png) -31px -47px no-repeat;
         cursor: pointer
     }
     
     div.light_square .pp_contract {
-        background: url(../images/prettyPhoto/light_square/sprite.png) 0 -26px no-repeat;
+        background: url(@/images/prettyPhoto/light_square/sprite.png) 0 -26px no-repeat;
         cursor: pointer
     }
     
     div.light_square .pp_contract:hover {
-        background: url(../images/prettyPhoto/light_square/sprite.png) 0 -47px no-repeat;
+        background: url(@/images/prettyPhoto/light_square/sprite.png) 0 -47px no-repeat;
         cursor: pointer
     }
     
     div.light_square .pp_close {
         width: 75px;
         height: 22px;
-        background: url(../images/prettyPhoto/light_square/sprite.png) -1px -1px no-repeat;
+        background: url(@/images/prettyPhoto/light_square/sprite.png) -1px -1px no-repeat;
         cursor: pointer
     }
     
     div.light_square .pp_nav .pp_play {
-        background: url(../images/prettyPhoto/light_square/sprite.png) -1px -100px no-repeat;
+        background: url(@/images/prettyPhoto/light_square/sprite.png) -1px -100px no-repeat;
         height: 15px;
         width: 14px
     }
     
     div.light_square .pp_nav .pp_pause {
-        background: url(../images/prettyPhoto/light_square/sprite.png) -24px -100px no-repeat;
+        background: url(@/images/prettyPhoto/light_square/sprite.png) -24px -100px no-repeat;
         height: 15px;
         width: 14px
     }
     
     div.light_square .pp_arrow_previous {
-        background: url(../images/prettyPhoto/light_square/sprite.png) 0 -71px no-repeat
+        background: url(@/images/prettyPhoto/light_square/sprite.png) 0 -71px no-repeat
     }
     
     div.light_square .pp_arrow_next {
-        background: url(../images/prettyPhoto/light_square/sprite.png) -22px -71px no-repeat
+        background: url(@/images/prettyPhoto/light_square/sprite.png) -22px -71px no-repeat
     }
     
     div.light_square .pp_next:hover {
-        background: url(../images/prettyPhoto/light_square/btnNext.png) center right no-repeat;
+        background: url(@/images/prettyPhoto/light_square/btnNext.png) center right no-repeat;
         cursor: pointer
     }
     
     div.light_square .pp_previous:hover {
-        background: url(../images/prettyPhoto/light_square/btnPrevious.png) center left no-repeat;
+        background: url(@/images/prettyPhoto/light_square/btnPrevious.png) center left no-repeat;
         cursor: pointer
     }
     
     div.facebook .pp_top .pp_left {
-        background: url(../images/prettyPhoto/facebook/sprite.png) -88px -53px no-repeat
+        background: url(@/images/prettyPhoto/facebook/sprite.png) -88px -53px no-repeat
     }
     
     div.facebook .pp_top .pp_middle {
-        background: url(../images/prettyPhoto/facebook/contentPatternTop.png) top left repeat-x
+        background: url(@/images/prettyPhoto/facebook/contentPatternTop.png) top left repeat-x
     }
     
     div.facebook .pp_top .pp_right {
-        background: url(../images/prettyPhoto/facebook/sprite.png) -110px -53px no-repeat
+        background: url(@/images/prettyPhoto/facebook/sprite.png) -110px -53px no-repeat
     }
     
     div.facebook .pp_content_container .pp_left {
-        background: url(../images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y
+        background: url(@/images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y
     }
     
     div.facebook .pp_content_container .pp_right {
-        background: url(../images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y
+        background: url(@/images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y
     }
     
     div.facebook .pp_expand {
-        background: url(../images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;
+        background: url(@/images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;
         cursor: pointer
     }
     
     div.facebook .pp_expand:hover {
-        background: url(../images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;
+        background: url(@/images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;
         cursor: pointer
     }
     
     div.facebook .pp_contract {
-        background: url(../images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;
+        background: url(@/images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;
         cursor: pointer
     }
     
     div.facebook .pp_contract:hover {
-        background: url(../images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;
+        background: url(@/images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;
         cursor: pointer
     }
     
     div.facebook .pp_close {
         width: 22px;
         height: 22px;
-        background: url(../images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;
+        background: url(@/images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;
         cursor: pointer
     }
     
@@ -6024,11 +6024,11 @@ that IE7/8 do not support :nth-child.
     }
     
     div.facebook .pp_loaderIcon {
-        background: url(../images/prettyPhoto/facebook/loader.gif) center center no-repeat
+        background: url(@/images/prettyPhoto/facebook/loader.gif) center center no-repeat
     }
     
     div.facebook .pp_arrow_previous {
-        background: url(../images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;
+        background: url(@/images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;
         height: 22px;
         margin-top: 0;
         width: 22px
@@ -6040,7 +6040,7 @@ that IE7/8 do not support :nth-child.
     }
     
     div.facebook .pp_arrow_next {
-        background: url(../images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;
+        background: url(@/images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;
         height: 22px;
         margin-top: 0;
         width: 22px
@@ -6061,37 +6061,37 @@ that IE7/8 do not support :nth-child.
     }
     
     div.facebook .pp_nav .pp_play {
-        background: url(../images/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;
+        background: url(@/images/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;
         height: 22px;
         width: 22px
     }
     
     div.facebook .pp_nav .pp_pause {
-        background: url(../images/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;
+        background: url(@/images/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;
         height: 22px;
         width: 22px
     }
     
     div.facebook .pp_next:hover {
-        background: url(../images/prettyPhoto/facebook/btnNext.png) center right no-repeat;
+        background: url(@/images/prettyPhoto/facebook/btnNext.png) center right no-repeat;
         cursor: pointer
     }
     
     div.facebook .pp_previous:hover {
-        background: url(../images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;
+        background: url(@/images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;
         cursor: pointer
     }
     
     div.facebook .pp_bottom .pp_left {
-        background: url(../images/prettyPhoto/facebook/sprite.png) -88px -80px no-repeat
+        background: url(@/images/prettyPhoto/facebook/sprite.png) -88px -80px no-repeat
     }
     
     div.facebook .pp_bottom .pp_middle {
-        background: url(../images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x
+        background: url(@/images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x
     }
     
     div.facebook .pp_bottom .pp_right {
-        background: url(../images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat
+        background: url(@/images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat
     }
     
     div.pp_pic_holder a:focus {
@@ -6244,7 +6244,7 @@ that IE7/8 do not support :nth-child.
     }
     
     .pp_gallery li.default a {
-        background: url(../images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
+        background: url(@/images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
         display: block;
         height: 33px;
         width: 50px
@@ -6256,7 +6256,7 @@ that IE7/8 do not support :nth-child.
     }
     
     a.pp_next {
-        background: url(../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+        background: url(@/images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
         display: block;
         float: right;
         height: 100%;
@@ -6265,7 +6265,7 @@ that IE7/8 do not support :nth-child.
     }
     
     a.pp_previous {
-        background: url(../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+        background: url(@/images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
         display: block;
         float: left;
         height: 100%;
@@ -6402,13 +6402,13 @@ that IE7/8 do not support :nth-child.
     
     div.light_rounded .pp_loaderIcon,
     div.light_square .pp_loaderIcon {
-        background: url(../images/prettyPhoto/light_rounded/loader.gif) center center no-repeat
+        background: url(@/images/prettyPhoto/light_rounded/loader.gif) center center no-repeat
     }
     
     div.dark_rounded .pp_top .pp_middle,
     div.dark_rounded .pp_content,
     div.dark_rounded .pp_bottom .pp_middle {
-        background: url(../images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat
+        background: url(@/images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat
     }
     
     div.dark_rounded .currentTextHolder,
@@ -6480,7 +6480,7 @@ Supports Thumbs: true
     
     .theme-default .nivoSlider {
         position: relative;
-        background: #fff url(../images/loading.gif) no-repeat 50% 50%;
+        background: #fff url(@/images/loading.gif) no-repeat 50% 50%;
         margin-bottom: 10px;
         -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
         -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
@@ -6504,7 +6504,7 @@ Supports Thumbs: true
     }
     
     .boxedshadow {
-        background: url(../images/boxedshadow.png) no-repeat top center;
+        background: url(@/images/boxedshadow.png) no-repeat top center;
         height: 105px;
         margin-top: -105px;
     }
@@ -6522,7 +6522,7 @@ Supports Thumbs: true
         display: inline-block;
         width: 22px;
         height: 22px;
-        background: url(../images/bullets.png) no-repeat;
+        background: url(@/images/bullets.png) no-repeat;
         text-indent: -9999px;
         border: 0;
         margin: 0 2px;
@@ -6536,7 +6536,7 @@ Supports Thumbs: true
         display: block;
         width: 30px;
         height: 30px;
-        background: url(../images/arrows.png) no-repeat;
+        background: url(@/images/arrows.png) no-repeat;
         text-indent: -9999px;
         border: 0;
         opacity: 0;

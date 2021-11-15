@@ -4,35 +4,35 @@
     <div id="ei-slider" class="ei-slider">
         <ul class="ei-slider-large">
             <li>
-                <img src="@/assets/imagesmodeny/women.jpg" alt="image01" class="responsiveslide">
+                <img src="@/assets/css/images/women.jpg" alt="image01" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Smile</h3>
                 </div>
             </li>
             <li>
-                <img src="@/assets/imagesmodeny/Rural_education.jpg" alt="image02" class="responsiveslide">
+                <img src="@/assets/css/images/Rural_education.jpg" alt="image02" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Hope</h3>
                 </div>
             </li>
             <li>
-                <img src="@/assets/imagesmodeny/family1.jpg" alt="image09" class="responsiveslide">
+                <img src="@/assets/css/images/family1.jpg" alt="image09" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Love</h3>
                 </div>
             </li>
             <li>
-                <img src="@/assets/imagesmodeny/houseworker.jpg" alt="image03" class="responsiveslide">
+                <img src="@/assets/css/images/houseworker.jpg" alt="image03" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Dream</h3>
                 </div>
             </li>
             <li>
-                <img src="@/assets/imagesmodeny/Planting_seedlings.jpg" alt="image04" class="responsiveslide">
+                <img src="@/assets/css/images/Planting_seedlings.jpg" alt="image04" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>care</h3>
@@ -40,14 +40,14 @@
             </li>
 
             <li>
-                <img src="@/assets/imagesmodeny/Screening_Operations.jpg" alt="image05" class="responsiveslide">
+                <img src="@/assets/css/images/Screening_Operations.jpg" alt="image05" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>active</h3>
                 </div>
             </li>
             <li>
-                <img src="@/assets/imagesmodeny/farmworker.jpg" alt="image06" class="responsiveslide">
+                <img src="@/assets/css/images/farmworker.jpg" alt="image06" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Learn</h3>
@@ -55,7 +55,7 @@
             </li>
 
             <li>
-                <img src="@/assets/imagesmodeny/trackter.jpg" alt="image08" class="responsiveslide">
+                <img src="@/assets/css/images/trackter.jpg" alt="image08" class="responsiveslide">
                 <div class="ei-title">
                     <h2>For</h2>
                     <h3>Better</h3>
@@ -63,7 +63,7 @@
             </li>
 
             <li>
-                <img src="@/assets/imagesmodeny/female_education3.jpg" alt="image10" class="responsiveslide">
+                <img src="@/assets/css/images/female_education3.jpg" alt="image10" class="responsiveslide">
                 <div class="ei-title">
                     <h2>Stand up </h2>
                     <h3>Live</h3>
