@@ -120,8 +120,9 @@
     <!-- CONTENT ================================================== -->
 
     <div class="migrant1">
-        <form action="#" method="post" class="loginForm">
-            <h2>로그인</h2>
+
+        <form action="login.html" method="post" class="migrantInsertForm">
+            <h2 style="margin: 30px;">농장주 회원가입</h2>
 
             <div class="idForm">
                 <input type="text" class="id" placeholder="아이디">
@@ -129,22 +130,32 @@
             <div class="passForm">
                 <input type="password" class="pw" placeholder="비밀번호">
             </div>
+            <div class="idForm">
+                <input type="text" class="name" placeholder="이름">
+            </div>
+            <div class="idForm">
+                <input type="text" class="addressNum" placeholder="우편번호">
+            </div>
+            <div class="idForm">
+                <input type="text" class="address" placeholder="주소">
+            </div>
+            <div class="idForm">
+                <input type="text" class="phone" placeholder="전화번호">
+            </div>
             <br>
-            <button type="button" class="btn login" onclick="button()">로그인</button>
-            <script>
+            <div class="migrantbottomText">
+                <a href="login.html"><button class="btn lnsert1">회원가입</button> 
+                <script>
                 let button = () => {
                     alert('login Button !')
                 }
-            </script>
-            <br><br>
+                </script>
+                
+                </a>
+                <a href="login.html"><button class="btn lnsert2">돌아가기</button></a>
+            </div>
         </form>
-        <div class="bottomText">
-            모드니가 처음이십니까? <br><br>
-            <a href="farmer_insert.html"><button class="btn lnsert1">농장주 회원가입</button></a>
-            <a href="migrant_insert.html"><button class="btn lnsert2">이주민 회원가입</button></a>
-        </div>
     </div>
-
 
 
     <!-- FOOOTER ================================================== -->

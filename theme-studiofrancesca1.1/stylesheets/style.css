@@ -24,7 +24,6 @@
     .loginForm {
         /* position: absolute; */
         width: 400px;
-        height: 535px;
         padding: 30px, 20px;
         background-color: #FFFFFF;
         text-align: center;
@@ -111,7 +110,6 @@
         /* left: 40%; */
         /* transform: translateX(-50%); */
         margin-bottom: 40px;
-        width: 40%;
         height: 40px;
         background: linear-gradient(125deg, #ff9100, #ff9100, #81ecec);
         background-position: left;
@@ -131,7 +129,6 @@
         /* left: 40%;
         transform: translateX(-50%); */
         margin-bottom: 40px;
-        width: 40%;
         height: 40px;
         background: linear-gradient(125deg, #ff6a8f, #ff6a8f, #81ecec);
         background-position: left;
@@ -150,8 +147,15 @@
         background-position: right;
     }
     
+    .migrantbottomText {
+        text-align: center;
+        font-size: 15px;
+    }
+    
     .bottomText {
         text-align: center;
+        position: absolute;
+        margin: 470px 0 0;
         font-size: 15px;
     }
     /* Links ---------------------- */
@@ -2716,6 +2720,7 @@ that IE7/8 do not support :nth-child.
         position: relative;
         display: flex;
         justify-content: center;
+        margin: 0 0 100px;
     }
     
     .select_education {
